@@ -1,0 +1,39 @@
+body {
+    background-color: beige;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    font-size:48px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 800px;
+    
+    border: 1px solid black;
+}
+
+.grid-container {
+    display: flex;
+    flex: 1;
+}
+
+.grid-element {
+    flex: 1 1 var(--cell-width);
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
