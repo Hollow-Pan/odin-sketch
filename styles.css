@@ -12,9 +12,20 @@ body {
     align-items: center;
 }
 
-.content {
+.heading {
     font-size:48px;
     font-weight: bold;
+}
+
+.grid-size {
+    margin-top: 16px;
+    padding: 10px 20px;
+    font-size: 24px;
+    color: white;
+    background-color: salmon;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .container {
@@ -22,8 +33,6 @@ body {
     flex-direction: column;
     width: 800px;
     height: 800px;
-    
-    border: 1px solid black;
 }
 
 .grid-container {
@@ -34,6 +43,5 @@ body {
 .grid-element {
     flex: 1 1 var(--cell-width);
     aspect-ratio: 1/1;
-    border: 1px solid black;
-    box-sizing: border-box;
+    border: 0.5px solid black;
 }
